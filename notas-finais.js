@@ -1,0 +1,14 @@
+var af1 = parseFloat(prompt("Digite o valor da af1:"));
+var af2 = parseFloat(prompt("Digite o valor da af2:"));
+var af3 = parseFloat(prompt("Digite o valor da af3:"));
+var af4 = parseFloat(prompt("Digite o valor da af4:"));
+
+var ai = parseFloat(prompt("Digite o valor da ai:"));
+
+var af = ((2*af1)+(2*af2)+(3*af3)+(3*af4))/10
+var n2 = (ai + af)/2
+var nf = (n1+n2)/n2
+console.log("Exercicio 4:");
+console.log(`O valor de NF é ${nf}.`);
+console.log(`O valor da N2 é ${n2}`);
+console.log(`O valor da AF é ${AF}`);
